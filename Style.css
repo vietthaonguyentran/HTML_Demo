@@ -1,0 +1,84 @@
+body {
+    background-color: gray;
+}
+
+.nav-bar {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: black;
+    padding: 10px 200px 10px 200px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.nav-bar a:hover {
+    color: whitesmoke;
+    background-color:burlywood;
+}
+
+.item-list{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.image-item {
+    opacity: 1;
+    width: 10%;
+}
+
+.text-box h1{
+    display: inline;
+    margin-left: 10px;
+    opacity: 1;
+    border-bottom: 2px solid red;
+    border-radius: 20px;
+}
+
+.text-box h1:hover {
+    opacity: 0;
+}
+
+.item1 h1::before{
+    content: "Read this one...";
+    font-size: 16px;
+}
+
+.item1 h1::after{
+    content: " check it out ....";
+    font-size: 16px;
+}
+
+.Category:first-child {
+    background-color: blue;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    
+}
+
+article {
+    width: 300px;
+    display: inline;
+    border: 1px solid black;
+}
+
+
+
+h1{
+    display: flex;
+}
+
+
+
+
+
+
