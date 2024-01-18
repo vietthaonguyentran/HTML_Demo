@@ -1,16 +1,52 @@
 body {
-    background-color: gray;
+    background-color: #FAF3F0 !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+header {
+    background-color: #DBC4F0;
 }
 
 .nav-bar {
-    background-color: bisque;
-    display: flex;
+    background-color: #FFCACC;
     justify-content: space-around;
 }
 
+.logo_box{
+    display: flex;
+    padding: 0px 120px 0px 120px;
+}
+
+.logo {
+    width: 100px;
+    float: left;
+}
+
+.search_bar {
+    margin: 25px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.search_bar input{
+    padding: 0px 0px 0px 30px;
+    margin: 7px;
+    border: 0px solid white;
+    height: 40px;
+    width: 500px;
+}
+.search_bar img{
+    padding: 0px;
+    margin: 10px;
+}
+
 .menu-item {
+    text-align: center;
     text-decoration: none;
-    color: black;
+    color: #374259;
     padding: 10px 200px 10px 200px;
     font-weight: bold;
     border-radius: 10px;
@@ -21,64 +57,147 @@ body {
     background-color:burlywood;
 }
 
-.item-list{
+.main {
+    background-color: #D4E2D4;
+}
+
+.sale-news {
     display: flex;
-    justify-content: space-between;
-    background-color: black;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.image-item {
-    opacity: 1;
-    width: 10%;
+.sale-news img{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.text-box h1{
+.voucher-item{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.voucher-item article{
+    width: 300px;
     display: inline;
-    margin-left: 10px;
-    opacity: 1;
-    border-bottom: 2px solid red;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px #D4E2D4;
+}
+
+.sale-code {
+    color: #E9B384;
+    font-weight: 600;
+}
+
+.copy-btn {
+    border-radius: 10px !important;
+    background-color: #C4C1A4;
+    text-decoration: none;
+}
+
+.term-text {
+    font-weight: 500;
+    margin: 10px;
+}
+
+.section-title {
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+    display: flex;
+    margin: 10px 5px 0px 5px;
+}
+
+.section-title h3 {
+    margin: 10px;
+    color: white;
+}
+
+.section-title img{
+    margin: 10px;
+}
+
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-item{
+    display: inline-block;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 15px 10px 15px;
+    margin: 20px;
+    box-shadow: 5px 5px #D4E2D4;
+}
+
+.special-badge{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 30px;
+    background-color: #FF8080;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.special-badge p{
+    padding: 8px 5px 8px 5px;
+}
+
+.product-image{
+    width: 200px;
+    height: 200px;
+}
+
+.product-name{
+    display: block;
+    color: #756AB6;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.product-price{
+    font-size: 18px;
+    font-weight: 600;
+    color: #FF8080;
+}
+
+.product-item-vertical {
+    margin: 10px 5px 10px 5px;
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.img-box{
+    display: inline-block;
     border-radius: 20px;
 }
 
-.text-box h1:hover {
-    opacity: 0;
-}
-
-.item1 h1::before{
-    content: "Read this one...";
-    font-size: 16px;
-}
-
-.item1 h1::after{
-    content: " check it out ....";
-    font-size: 16px;
-}
-
-.Category:first-child {
-    background-color: blue;
-}
-
-header{
-    display: flex;
-    position: fixed;
-    top: 0;
-    
-}
-
-article {
+.img-box img{
     width: 300px;
-    display: inline;
-    border: 1px solid black;
+    height: 200px;
 }
 
+.text-box {
+    margin-left: 5px;
+    display: inline-block;
+}
 
+.text-box h5{
+    font-size: 20px;
+}
 
-h1{
+footer {
+    background-color: black;
     display: flex;
 }
-
-
-
-
-
-
